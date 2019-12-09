@@ -36,17 +36,17 @@ namespace HelloGtk
             var seven = new Button("7");
             var eight = new Button("8");
             var nine = new Button("9");
-            var dev = new Button("/");
+            var division = new Button("/");
             
             var fore = new Button("4");
             var five = new Button("5");
             var six = new Button("6");
-            var mul = new Button("*");
+            var multiplied = new Button("*");
             
             var one = new Button("1");
             var two = new Button("2");
             var three = new Button("3");
-            var min = new Button("-");
+            var minus = new Button("-");
             
             var zero = new Button("0");
             var point = new Button(".");
@@ -79,17 +79,17 @@ namespace HelloGtk
             buttons.Attach(seven, 0 * width, 1 * height, width, height);
             buttons.Attach(eight, 1 * width, 1 * height, width, height);
             buttons.Attach(nine, 2 * width, 1 * height, width, height);
-            buttons.Attach(dev, 3 * width, 1 * height, width, height);
+            buttons.Attach(division, 3 * width, 1 * height, width, height);
 
             buttons.Attach(fore, 0 * width, 2 * height, width, height);
             buttons.Attach(five, 1 * width, 2 * height, width, height);
             buttons.Attach(six, 2 * width, 2 * height, width, height);
-            buttons.Attach(mul, 3 * width, 2 * height, width, height);            
+            buttons.Attach(multiplied, 3 * width, 2 * height, width, height);            
             
             buttons.Attach(one, 0 * width, 3 * height, width, height);
             buttons.Attach(two, 1 * width, 3 * height, width, height);
             buttons.Attach(three, 2 * width, 3 * height, width, height);
-            buttons.Attach(min, 3 * width, 3 * height, width, height);
+            buttons.Attach(minus, 3 * width, 3 * height, width, height);
             
             buttons.Attach(zero, 0 * width, 4 * height, width, height);
             buttons.Attach(point, 1 * width, 4 * height, width, height);
